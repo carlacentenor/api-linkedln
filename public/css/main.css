@@ -1,0 +1,12 @@
+
+.bg-blue{
+  background-color: #283E4A;
+}
+
+.btn-signin{
+  background: url('../assets/images/btnsign.png');
+  background-size: cover;
+  width: 215px;
+  height: 41px;
+  border: none;
+}
