@@ -14,31 +14,44 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-blue">
-    <a class="navbar-brand" href="#"><i class="fab fa-linkedin"></i></a>
+    <a class="navbar-brand" href="#">
+      <i class="fab fa-linkedin fa-2x"></i>
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
       aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <div class="collapse navbar-collapse icons-box" id="navbarTogglerDemo02">
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home </a>
+        <li class="nav-item active icon">
+          <i class="fas fa-home fa-2x"></i>
+        </li>
+        <li class="nav-item active icon">
+          <i class="fas fa-users fa-2x"></i>
+        </li>
+        <li class="nav-item active icon">
+          <i class="fas fa-suitcase fa-2x"></i>
+        </li>
+        <li class="nav-item active icon">
+          <i class="fas fa-envelope-square fa-2x"></i>
+        </li>
+        <li class="nav-item active icon">
+          <i class="fas fa-bell fa-2x"></i>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="../index.html">Log Out</a>
         </li>
-
     </div>
   </nav>
   <ul class="nav nav-tabs" id="myTab" role="tablist">
     <li class="nav-item">
-      <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><span class="icon-home pr-3"></span>Home</a>
+      <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
+        <span class="icon-home pr-3"></span>Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"><span class="icon-user pr-3"></span>Profile</a>
+      <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">
+        <span class="icon-user pr-3"></span>Profile</a>
     </li>
-
   </ul>
   <div class="tab-content" id="myTabContent">
     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
@@ -46,40 +59,36 @@
         <div class="row">
           <div class="col-3 perfil-box">
             <div>
-              <img  alt="photo" class="img-post rounded-circle img-fluid">
+              <img alt="photo" class="img-post rounded-circle img-fluid">
               <h6 class="firstname"></h6>
               <p class="font-1 lastname"></p>
               <p class="headline" class=""></p>
 
             </div>
           </div>
-          <div class="col-md-9 col-sm-11">
-              <img alt="photo" class="img-post rounded-circle img-fluid cont-photo">
-              <textarea class="form-control" id="text" type="text"></textarea>
-              <div class="mt-2">
-                  <button class="btn bg-info white"><span class="icon-compass pr-3"></span>Publicar</button>
-              </div>
-              <div class="container container-post">
-
-              </div>
-             
+          <div class="col-md-6 col-sm-11">
+            <img alt="photo" class="img-post rounded-circle img-fluid cont-photo">
+            <textarea class="form-control" rows="5" id="text" type="text"></textarea>
+            <div class="mt-2">
+              <button class="btn bg-info white">
+                <span class="icon-compass pr-3"></span>Publicar</button>
+            </div>
+            
+          </div>
+          <div class="col-md-3">
+            <img class="publicity img-fluid" src="../assets/images/publicity.png" alt="Unifé">
           </div>
         </div>
-      </div>
+                <div class="container container-post">
     
-      
+                </div>
+      </div>
     </div>
-
-
-
     <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-
-
       <div>
         <img class="h20 bg-portada w100" src="../assets/images/fondo.jpg" alt="fondo">
       </div>
       <section class="text-center h80">
-
         <figure>
           <img class="border img-profile" alt="" id="photo-user">
         </figure>
@@ -87,25 +96,22 @@
           <h2 class="firstname"></h2>
           <p class="font-1 lastname"></p>
           <hr>
-          <p class="headline" class="font-w2"></p>
+          <p class="headline" class="font-w2">
+          </p>
           <p class="">
-            <span class="icon-link"></span> Conexiones </p>
+            <span class="icon-link"></span>Conexiones</p>
           <p id="connections" class="font-2 text-primary"></p>
         </div>
       </section>
     </div>
-
   </div>
-
-
-
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-
+  <script type="IN/AlumniFacet" data-linkedin-schoolid="18633"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   <script src="../js/home.js"></script>
 </body>
 

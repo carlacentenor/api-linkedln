@@ -89,16 +89,13 @@ hr {
   background-color: #fff;
   display: flex;
   align-items: center;
+  border-radius: 5px;
 }
 
 .container-post .img-post {
   width: 90px;
   height: 80px;
 }
-
-/* .text {
-  padding: 2rem auto;
-} */
 
 @media (max-width: 450px) {
   .perfil-box {
@@ -119,4 +116,47 @@ hr {
   height: 50px;
   padding: 0;
 }
+.name-post {
+  font-size: 14px;
+}
+.publicity {
+  display: none;
+}
+.reaction {
+  font-size: 10px;
+}
+.cont-post {
+  font-size: 10px;
+}
+}
+
+.icons-box {
+  position: absolute;
+  left: 65%;
+  color: #fff;
+}
+
+.icon {
+  padding: 0 15px 0 15px;
+}
+
+li:hover {
+  cursor: pointer;
+  color: #0096b3;
+}
+
+svg.reaction:hover {
+  cursor: pointer;
+  color: #0096b3;
+}
+
+.line {
+  margin: 1px;
+  background-color: black;
+}
+
+.box-post {
+  border: 1px solid rgb(134, 134, 134);
+  padding: 2rem;
+  border-radius: 4px;
 }

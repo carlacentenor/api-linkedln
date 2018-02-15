@@ -33,10 +33,18 @@ function post(event) {
   $contPost.prepend(`<div class="row cont-post">
   <div class="col-3">
   <img  alt="photo" class="img-post rounded-circle img-fluid" src=${localStorage.pictureUrl}>
-  <p>${localStorage.firstName}</p>
+  <p class="name-post">${localStorage.firstName}</p>
+  <hr class="line">
+  <i class="fas reaction fa-thumbs-up"></i>
+  <i class="fas reaction fa-comment-alt"></i>
+  <i class="fas reaction fa-share"></i>
   </div>
-  <div class="col-9">
+  <div class="col-9 box-post">
   <p class="text">${textPost}</p>
+  </div>
   </div>
   </div>`);
 };
+
+$text.focus();
+moment().format('MMMM Do YYYY, h:mm:ss a');
