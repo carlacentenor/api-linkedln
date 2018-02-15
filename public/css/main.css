@@ -55,3 +55,17 @@
 hr {
   margin: 1em;
 }
+
+.h100{
+  height: 100vh;
+}
+
+.bg-1{
+  background-image: url('../assets/images/img2.jpg');
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.opacity{
+  background: rgba(0, 0, 0, 0.8);
+}
