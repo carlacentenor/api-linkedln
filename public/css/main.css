@@ -1,6 +1,10 @@
 
 .bg-blue{
-  background-color: #283E4A;
+  background-color: #283E4A !important;
+}
+
+.white{
+  color: white;
 }
 
 .btn-signin{
@@ -9,4 +13,45 @@
   width: 215px;
   height: 41px;
   border: none;
+}
+
+.h20{
+  height: 30vh;
+}
+
+.h80{
+  height: 50vh;
+}
+
+.bg-portada{
+  background-size :cover; 
+}
+
+.w100{
+  width: 100%;
+}
+
+.img-profile{
+  margin-top: -2em; 
+}
+
+.font-1{
+  font-size: 1em;
+  line-height: 1;
+}
+
+.font-2{
+  font-size: 2em;
+  line-height: 1;
+}
+
+
+.font-w2{
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #283E4A;
+}
+
+hr {
+  margin: 1em;
 }
