@@ -1,4 +1,3 @@
-
 // Setup an event listener to make an API call once auth is complete
 function onLinkedInLoad() {
   IN.Event.on(IN, 'auth', getProfileData);
@@ -26,4 +25,3 @@ function getProfileData() {
   IN.API.Raw('/people/~').result(onSuccess).error(onError);
   IN.API.Raw('people/~:(id,num-connections,picture-url)').result(response).error(onError);
 }
-

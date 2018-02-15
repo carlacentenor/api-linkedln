@@ -4,6 +4,7 @@ let $headlineUser = $('#headline');
 let $connectionsUser = $('#connections');
 let $imgUser = $('#photo-user');
 let $imgPost = $('.img-post');
+
 function getInfoUser() {
   let url = localStorage.pictureUrl;
   $imgUser.attr('src', url);
@@ -16,7 +17,7 @@ function getInfoUser() {
 
 getInfoUser();
 
-$('#tab1').on('click', function (e) {
-  e.preventDefault()
-  $(this).tab('show')
-})
+$('#tab1').on('click', function(event) {
+  event.preventDefault();
+  $(this).tab('show');
+});

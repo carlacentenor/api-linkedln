@@ -1,13 +1,12 @@
-
-.bg-blue{
+.bg-blue {
   background-color: #283E4A !important;
 }
 
-.white{
+.white {
   color: white;
 }
 
-.btn-signin{
+.btn-signin {
   background: url('../assets/images/btnsign.png');
   background-size: cover;
   width: 215px;
@@ -15,38 +14,37 @@
   border: none;
 }
 
-.h20{
+.h20 {
   height: 30vh;
 }
 
-.h80{
+.h80 {
   height: 50vh;
 }
 
-.bg-portada{
-  background-size :cover; 
+.bg-portada {
+  background-size: cover;
 }
 
-.w100{
+.w100 {
   width: 100%;
 }
 
-.img-profile{
-  margin-top: -2em; 
+.img-profile {
+  margin-top: -2em;
 }
 
-.font-1{
+.font-1 {
   font-size: 1em;
   line-height: 1;
 }
 
-.font-2{
+.font-2 {
   font-size: 2em;
   line-height: 1;
 }
 
-
-.font-w2{
+.font-w2 {
   font-weight: 800;
   text-transform: uppercase;
   color: #283E4A;
@@ -56,16 +54,16 @@ hr {
   margin: 1em;
 }
 
-.h100{
+.h100 {
   height: 100vh;
 }
 
-.bg-1{
+.bg-1 {
   background-image: url('../assets/images/img2.jpg');
   background-size: cover;
   background-position: center bottom;
 }
 
-.opacity{
+.opacity {
   background: rgba(0, 0, 0, 0.8);
 }
