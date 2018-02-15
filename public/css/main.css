@@ -1,5 +1,9 @@
+body {
+  background-color: #F5F5F5;
+}
+
 .bg-blue {
-  background-color: #283E4A !important;
+  background-color: #283e4a !important;
 }
 
 .white {
@@ -7,7 +11,7 @@
 }
 
 .btn-signin {
-  background: url('../assets/images/btnsign.png');
+  background: url("../assets/images/btnsign.png");
   background-size: cover;
   width: 215px;
   height: 41px;
@@ -47,7 +51,7 @@
 .font-w2 {
   font-weight: 800;
   text-transform: uppercase;
-  color: #283E4A;
+  color: #283e4a;
 }
 
 hr {
@@ -59,11 +63,54 @@ hr {
 }
 
 .bg-1 {
-  background-image: url('../assets/images/img2.jpg');
+  background-image: url("../assets/images/img2.jpg");
   background-size: cover;
   background-position: center bottom;
 }
 
 .opacity {
   background: rgba(0, 0, 0, 0.8);
+}
+
+.perfil-box {
+  background-color: #0096b3;
+  padding: 1rem;
+  text-align: center;
+  color: #fff;
+}
+
+.cont-photo {
+  display: none;
+}
+
+.cont-post {
+  padding: 0.5rem;
+  margin: 1rem;
+  background-color: #fff;
+}
+
+.container-post .img-post {
+  width: 90px;
+  height: 80px;
+}
+
+@media (max-width: 450px) {
+  .perfil-box {
+    display: none;
+  }
+  .cont-photo {
+    display: inline;
+  }
+  textarea#text {
+    width: 69%;
+    display: inline-block;
+    position: relative;
+    top: 1.5rem;
+    left: 1rem;
+  }
+  .container-post .img-post {
+  width: 60px;
+  height: 50px;
+  padding: 0;
+}
 }
