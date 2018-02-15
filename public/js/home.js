@@ -30,13 +30,13 @@ $btnPost.on('click', post);
 
 function post(event) {
   let textPost = $text.val();
-  $contPost.append(`<div class="row cont-post">
-  <div class="col-4">
+  $contPost.prepend(`<div class="row cont-post">
+  <div class="col-3">
   <img  alt="photo" class="img-post rounded-circle img-fluid" src=${localStorage.pictureUrl}>
   <p>${localStorage.firstName}</p>
   </div>
-  <div class="col-8">
-  <p>${textPost}</p>
+  <div class="col-9">
+  <p class="text">${textPost}</p>
   </div>
   </div>`);
 };

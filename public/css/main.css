@@ -87,12 +87,18 @@ hr {
   padding: 0.5rem;
   margin: 1rem;
   background-color: #fff;
+  display: flex;
+  align-items: center;
 }
 
 .container-post .img-post {
   width: 90px;
   height: 80px;
 }
+
+/* .text {
+  padding: 2rem auto;
+} */
 
 @media (max-width: 450px) {
   .perfil-box {
